@@ -1,1 +1,9 @@
+<% include partials/header %>
+
 <h1>Friends list goes here!</h1>
+
+<% friends.forEach(function(friend){ %>
+    <li><%= friend %></li>
+<% }); %>
+
+<% include partials/footer %>
