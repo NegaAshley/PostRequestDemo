@@ -3,6 +3,7 @@ var app = express();
 var bodyParser = require("body-parser");
 var friends = ["Tony", "Miranda", "Justin", "Pierre", "Lily"];
 
+//Use bodyparser to access requests in body
 app.use(bodyParser.urlencoded({extended: true}));
 
 //Default view engine
